@@ -18,6 +18,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://mamikos.com/cari')
 
+WebUI.click(findTestObject('Object Repository/Case 3/Page_Mamikos - Cari Kost di sekitar sini Cari Kost di sekitarmu/button_Saya Mengerti'))
+
 WebUI.click(findTestObject('Object Repository/Case 3/Page_Mamikos - Cari Kost di sekitar sini Cari Kost di sekitarmu/i_Filter Lanjutan_fa fa-chevron-down'))
 
 WebUI.click(findTestObject('Object Repository/Case 3/Page_Mamikos - Cari Kost di sekitar sini Cari Kost di sekitarmu/label_AC'))

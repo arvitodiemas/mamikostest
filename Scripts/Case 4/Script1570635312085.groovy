@@ -18,15 +18,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://mamikos.com/cari')
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://mamikos.com/cari')
+WebUI.click(findTestObject('Object Repository/Case 4/Page_Mamikos - Cari Kost di sekitar sini Cari Kost di sekitarmu/button_Saya Mengerti'))
 
 WebUI.setText(findTestObject('Object Repository/Case 4/Page_Mamikos - Cari Kost di sekitar sini Cari Kost di sekitarmu/input_Rentang Harga_filterPriceMin'), 
-    '0')
+    '999999999')
 
 WebUI.setText(findTestObject('Object Repository/Case 4/Page_Mamikos - Cari Kost di sekitar sini Cari Kost di sekitarmu/input___filterPriceMax'), 
-    '500')
+    '5')
 
 WebUI.click(findTestObject('Object Repository/Case 4/Page_Mamikos - Cari Kost di sekitar sini Cari Kost di sekitarmu/button_Set'))
 
